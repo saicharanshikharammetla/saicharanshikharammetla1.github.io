@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Charan | Full Stack .NET Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; scroll-behavior: smooth; }
+    .hero { background: linear-gradient(120deg, #0d6efd, #6610f2); color: white; padding: 80px 20px; }
+    .section { padding: 60px 20px; }
+    .skill-badge { margin: 5px; }
+    footer { background: #111; color: #bbb; padding: 20px; }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Sai Charan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero text-center" id="home">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Sai Charan Shikharammetla</h1>
+    <p class="lead">Full Stack .NET Developer | ASP.NET Core | SQL Server</p>
+    <a href="#projects" class="btn btn-light mt-3">View My Work</a>
+  </div>
+</section>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="mb-4">About Me</h2>
+    <p>
+      I am a passionate Full Stack .NET Developer focused on building clean, scalable, and efficient web applications.
+      I enjoy turning ideas into real products using C#, ASP.NET Core, SQL, JavaScript, and modern web technologies.
+    </p>
+    <p>
+      I love problem-solving, learning new tools, and improving with every project. Currently enhancing my skills
+      in cloud technologies and microservices.
+    </p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="section bg-light" id="skills">
+  <div class="container">
+    <h2 class="mb-4">Skills</h2>
+    <span class="badge bg-primary skill-badge">C#</span>
+    <span class="badge bg-primary skill-badge">ASP.NET Core MVC</span>
+    <span class="badge bg-primary skill-badge">Entity Framework Core</span>
+    <span class="badge bg-primary skill-badge">SQL Server</span>
+    <span class="badge bg-primary skill-badge">HTML</span>
+    <span class="badge bg-primary skill-badge">CSS</span>
+    <span class="badge bg-primary skill-badge">Bootstrap</span>
+    <span class="badge bg-primary skill-badge">Git</span>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="mb-4">Projects</h2>
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">TODO List Web Application</h5>
+        <p class="card-text">
+          A full stack task management application built using ASP.NET Core MVC and SQL Server.
+          Includes authentication, CRUD operations, validation, and responsive UI.
+        </p>
+        <p><strong>Tech Stack:</strong> C#, ASP.NET Core MVC, EF Core, SQL Server, Bootstrap</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="section bg-light" id="contact">
+  <div class="container">
+    <h2 class="mb-4">Contact</h2>
+    <p><strong>Location:</strong> Hyderabad, Telangana</p>
+    <p><strong>Email:</strong> saicharanshikharammetla@gmail.com</p>
+    <p><strong>Phone:</strong> 7601093686</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sai-charan-shikharammetla-550669239" target="_blank">View Profile</a></p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+  <p>© 2025 Sai Charan | Full Stack .NET Developer</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
